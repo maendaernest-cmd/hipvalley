@@ -1,0 +1,7 @@
+{
+  "name": "Hipavalley Construction",
+  "description": "Premier construction and property development firm in Harare, Zimbabwe. Building excellence in residential, commercial, and industrial sectors.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
