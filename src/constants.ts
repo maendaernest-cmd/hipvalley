@@ -77,7 +77,7 @@ export const TEAM: TeamMember[] = [
     name: 'Joseph Chamakandiona',
     role: 'Owner & Lead Builder',
     bio: 'With 8 years of experience in residential construction, I founded Hipavalley with a passion for creating beautiful family homes across Harare.',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
+    imageUrl: '/images/joseph-profile.jpg',
     linkedin: '#'
   }
 ];
