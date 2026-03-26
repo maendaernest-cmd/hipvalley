@@ -12,7 +12,7 @@ export const ServicesPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="relative mb-12">
             <img
-              src="/images/WhatsApp Image 2026-03-25 at 20.27.17.jpeg"
+              src="/images/hero-services.jpg"
               alt="Construction services"
               className="w-full h-64 object-cover rounded-3xl"
               referrerPolicy="no-referrer"

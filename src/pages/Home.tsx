@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="relative h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/WhatsApp Image 2026-03-25 at 20.27.13 (1).jpeg"
+          src="/images/hero-services.jpg"
           alt="Construction site"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -188,7 +188,7 @@ const WhyChooseUs = () => {
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden">
               <img
-                src="/images/WhatsApp Image 2026-03-25 at 20.27.04.jpeg"
+                src="/images/extension-service.jpg"
                 alt="Construction detail"
                 className="w-full h-full object-cover"
                 style={{ clipPath: 'polygon(0 15%, 100% 0, 100% 100%, 25% 100%, 0 85%)' }}
