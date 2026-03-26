@@ -74,7 +74,7 @@ export const SERVICES: Service[] = [
 export const TEAM: TeamMember[] = [
   {
     id: '1',
-    name: 'Tendai Ndlovu',
+    name: 'Joseph Chamakandiona',
     role: 'Owner & Lead Builder',
     bio: 'With 8 years of experience in residential construction, I founded Hipavalley with a passion for creating beautiful family homes across Harare.',
     imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
@@ -102,7 +102,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'sustainable-building-trends-harare',
     excerpt: 'How green materials are changing the landscape of Zimbabwean construction.',
     content: 'Full content goes here...',
-    author: 'Tendai Ndlovu',
+    author: 'Joseph Chamakandiona',
     date: '2026-03-10',
     category: 'Sustainability',
     imageUrl: 'https://images.unsplash.com/photo-1518005020480-383301028020?auto=format&fit=crop&q=80&w=800',
