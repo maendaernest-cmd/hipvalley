@@ -216,7 +216,11 @@ const Testimonials = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[1, 2, 3].map((i) => (
+          {[
+            { name: "Duke Chizembe", location: "Homeowner, Borrowdale" },
+            { name: "Linda Chirwa", location: "Homeowner, Kuwadzana" },
+            { name: "Tendai Chokomwe", location: "Homeowner, Highlands" }
+          ].map((testimonial, i) => (
             <div key={i} className="bg-white p-8 rounded-3xl border border-gray-100">
               <div className="flex text-orange-500 mb-6">
                 {[1, 2, 3, 4, 5].map(s => <Star key={s} size={16} fill="currentColor" />)}
@@ -227,8 +231,8 @@ const Testimonials = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-gray-200 rounded-full" />
                 <div>
-                  <h5 className="font-bold text-gray-900">John Doe</h5>
-                  <p className="text-xs text-gray-500 uppercase tracking-widest">Homeowner, Borrowdale</p>
+                  <h5 className="font-bold text-gray-900">{testimonial.name}</h5>
+                  <p className="text-xs text-gray-500 uppercase tracking-widest">{testimonial.location}</p>
                 </div>
               </div>
             </div>
