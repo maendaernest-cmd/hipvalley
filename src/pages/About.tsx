@@ -62,7 +62,7 @@ export const AboutPage = () => {
               />
               <div className="absolute -bottom-10 -right-10 bg-white p-8 rounded-3xl shadow-xl hidden md:block max-w-xs">
                 <p className="text-gray-900 font-bold italic">"We don't just build walls; we build dreams and lasting legacies for our community."</p>
-                <p className="text-orange-600 text-sm font-bold mt-4">— Tendai Ndlovu</p>
+                <p className="text-orange-600 text-sm font-bold mt-4">— Joseph Chamakandiona</p>
               </div>
             </div>
           </div>
