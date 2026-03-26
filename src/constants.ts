@@ -13,7 +13,7 @@ export const PROJECTS: Project[] = [
     description: 'A contemporary 5-bedroom family home featuring sustainable design and luxury finishes.',
     challenge: 'Steep site requiring extensive earthworks and specialized retaining structures.',
     solution: 'Implemented a terraced design that follows the natural contours of the land, maximizing views while ensuring structural integrity.',
-    imageUrl: '/images/glen.jfif',
+    imageUrl: '/images/glen.jpg',
     gallery: [
       'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=800'
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     description: 'Beautiful home extension adding new living spaces for a growing family.',
     challenge: 'Integrating new construction with existing structure seamlessly.',
     solution: 'Designed extension that matches existing architecture while providing modern functionality.',
-    imageUrl: '/images/WhatsApp Image 2026-03-25 at 20.27.28.jpeg',
+    imageUrl: '/images/extension-project.jpg',
     gallery: [],
     featured: true
   }

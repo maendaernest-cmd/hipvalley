@@ -64,10 +64,10 @@ export const ServicesPage = () => {
                       <img
                         src={
                           service.slug === 'home-renovations' 
-                            ? '/images/WhatsApp Image 2026-03-25 at 20.27.20.jpeg'
+                            ? '/images/renovation-service.jpg'
                             : service.slug === 'home-extensions'
-                            ? '/images/download (1).jfif'
-                            : '/images/WhatsApp Image 2026-03-25 at 20.27.30.jpeg'
+                            ? '/images/extension-service.jpg'
+                            : '/images/custom-home-service.jpg'
                         }
                         alt={service.title}
                         className="w-full h-full object-cover"
