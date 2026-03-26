@@ -10,9 +10,19 @@ export const ServicesPage = () => {
     <main className="pt-20">
       <section className="py-24 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-8">Our Services</h1>
+          <div className="relative mb-12">
+            <img
+              src="/images/WhatsApp Image 2026-03-25 at 20.27.17.jpeg"
+              alt="Construction services"
+              className="w-full h-64 object-cover rounded-3xl"
+              referrerPolicy="no-referrer"
+            />
+            <div className="absolute inset-0 bg-black/50 rounded-3xl flex items-center justify-center">
+              <h1 className="text-4xl md:text-5xl font-bold text-white">Our Services</h1>
+            </div>
+          </div>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            From groundbreaking to the final finishing touches, Hipavalley provides comprehensive construction and development solutions across Zimbabwe.
+            From groundbreaking to final finishing touches, Hipavalley provides comprehensive construction solutions for Harare families.
           </p>
         </div>
       </section>
@@ -52,7 +62,13 @@ export const ServicesPage = () => {
                   <div className="flex-1">
                     <div className="aspect-[4/3] rounded-[3rem] overflow-hidden shadow-2xl">
                       <img
-                        src={`https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80&w=1000&sig=${index}`}
+                        src={
+                          service.slug === 'home-renovations' 
+                            ? '/images/WhatsApp Image 2026-03-25 at 20.27.20.jpeg'
+                            : service.slug === 'home-extensions'
+                            ? '/images/download (1).jfif'
+                            : '/images/WhatsApp Image 2026-03-25 at 20.27.30.jpeg'
+                        }
                         alt={service.title}
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"

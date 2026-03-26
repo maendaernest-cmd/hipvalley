@@ -30,7 +30,7 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-gray-900 mb-1">Our Office</h4>
-                    <p className="text-gray-600">123 Enterprise Rd, Highlands, Harare, Zimbabwe</p>
+                    <p className="text-gray-600">Kuwadzana Extension, Harare, Zimbabwe</p>
                   </div>
                 </div>
 
@@ -40,8 +40,7 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-gray-900 mb-1">Call Us</h4>
-                    <p className="text-gray-600">+263 242 123 456</p>
-                    <p className="text-gray-600">+263 772 000 000 (WhatsApp)</p>
+                    <p className="text-gray-600">+263 773063103</p>
                   </div>
                 </div>
 
@@ -51,8 +50,7 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-gray-900 mb-1">Email Us</h4>
-                    <p className="text-gray-600">info@hipavalley.co.zw</p>
-                    <p className="text-gray-600">projects@hipavalley.co.zw</p>
+                    <p className="text-gray-600">hipvalley@gmail.com</p>
                   </div>
                 </div>
 
@@ -75,7 +73,7 @@ export const ContactPage = () => {
                 </div>
                 <p className="text-gray-400 mb-6">Need a quick answer? Chat with our sales team directly on WhatsApp.</p>
                 <a
-                  href="https://wa.me/263772000000"
+                  href="https://wa.me/2637730631303"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition-all"
@@ -131,7 +129,7 @@ export const ContactPage = () => {
                         required
                         type="tel"
                         className="w-full px-6 py-4 bg-gray-50 border border-gray-100 rounded-2xl focus:outline-none focus:ring-2 focus:ring-orange-600/20 focus:border-orange-600 transition-all"
-                        placeholder="+263 772 000 000"
+                        placeholder="+263 773063103"
                       />
                     </div>
                     <div className="space-y-2">

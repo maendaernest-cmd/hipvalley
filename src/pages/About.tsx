@@ -10,7 +10,7 @@ export const AboutPage = () => {
       <section className="relative py-32 bg-gray-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <img
-            src="https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80&w=2000"
+            src="/images/WhatsApp Image 2026-03-25 at 20.27.02.jpeg"
             alt="Architecture"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

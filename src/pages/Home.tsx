@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="relative h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2000"
+          src="/images/WhatsApp Image 2026-03-25 at 20.27.13 (1).jpeg"
           alt="Construction site"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -25,15 +25,12 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-orange-600 text-xs font-bold uppercase tracking-widest mb-6">
-            Premier Construction in Harare
-          </span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.1]">
-            Building Harare's Future. <br />
-            <span className="text-orange-500 italic font-serif">Since 2010.</span>
+            Your Dream Home, <br />
+            <span className="text-orange-500 italic font-serif">Beautifully Built.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed max-w-2xl">
-            Trusted construction partner for luxury residential, commercial complexes, and innovative property development across Zimbabwe.
+            Dedicated to crafting beautiful, quality homes for families across Harare. We bring your residential vision to life with care and attention to detail.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -55,16 +52,16 @@ const Hero = () => {
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex space-x-12 text-white/60 text-sm font-medium uppercase tracking-widest hidden lg:flex">
         <div className="flex items-center space-x-2">
-          <span className="text-orange-500 font-bold text-lg">15+</span>
-          <span>Years Experience</span>
+          <span className="text-orange-500 font-bold text-lg">5+</span>
+          <span>Years Building Homes</span>
         </div>
         <div className="flex items-center space-x-2">
-          <span className="text-orange-500 font-bold text-lg">200+</span>
-          <span>Projects Done</span>
+          <span className="text-orange-500 font-bold text-lg">25+</span>
+          <span>Homes Completed</span>
         </div>
         <div className="flex items-center space-x-2">
-          <span className="text-orange-500 font-bold text-lg">50+</span>
-          <span>Expert Team</span>
+          <span className="text-orange-500 font-bold text-lg">8+</span>
+          <span>Dedicated Team</span>
         </div>
       </div>
     </section>
@@ -77,8 +74,8 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-sm font-bold text-orange-600 uppercase tracking-[0.2em] mb-4">Our Expertise</h2>
-          <h3 className="text-4xl font-bold text-gray-900 mb-6">Comprehensive Construction Solutions</h3>
-          <p className="text-gray-600">From luxury homes to commercial skyscrapers, we provide end-to-end services tailored to the unique needs of the Zimbabwean market.</p>
+          <h3 className="text-4xl font-bold text-gray-900 mb-6">Quality Home Construction Services</h3>
+          <p className="text-gray-600">From custom family homes to thoughtful renovations, we provide personalized construction services tailored to Harare families.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -172,9 +169,9 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div>
             <h2 className="text-sm font-bold text-orange-500 uppercase tracking-[0.2em] mb-4">Why Hipavalley</h2>
-            <h3 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Setting the Standard for Construction in Zimbabwe</h3>
+            <h3 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Building Beautiful Homes for Harare Families</h3>
             <p className="text-gray-400 mb-12 text-lg leading-relaxed">
-              We don't just build structures; we build legacies. Our approach combines traditional craftsmanship with modern technology to deliver results that stand the test of time.
+              We believe every family deserves a beautiful, functional home. Our small, dedicated team focuses on quality craftsmanship and personal service to bring your residential dreams to life.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {features.map((f, i) => (
@@ -191,15 +188,16 @@ const WhyChooseUs = () => {
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000"
+                src="/images/WhatsApp Image 2026-03-25 at 20.27.04.jpeg"
                 alt="Construction detail"
                 className="w-full h-full object-cover"
+                style={{ clipPath: 'polygon(0 15%, 100% 0, 100% 100%, 25% 100%, 0 85%)' }}
                 referrerPolicy="no-referrer"
               />
             </div>
-            <div className="absolute -bottom-10 -left-10 bg-orange-600 p-10 rounded-3xl hidden md:block">
-              <div className="text-5xl font-bold mb-2">15+</div>
-              <div className="text-sm font-medium uppercase tracking-widest">Years of Excellence</div>
+            <div className="absolute -bottom-10 -left-10 bg-orange-600 p-10 rounded-3xl">
+              <div className="text-5xl font-bold mb-2">5+</div>
+              <div className="text-sm font-medium uppercase tracking-widest">Years Building Homes</div>
             </div>
           </div>
         </div>
@@ -224,7 +222,7 @@ const Testimonials = () => {
                 {[1, 2, 3, 4, 5].map(s => <Star key={s} size={16} fill="currentColor" />)}
               </div>
               <p className="text-gray-600 italic mb-8 leading-relaxed">
-                "Hipavalley transformed our vision into a reality. Their attention to detail and commitment to quality is unmatched in Harare. We couldn't be happier with our new home."
+                "Hipavalley built our family home exactly as we dreamed it. Their attention to detail and personal approach made the entire process stress-free. We love our new home!"
               </p>
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-gray-200 rounded-full" />
@@ -248,9 +246,9 @@ const CTA = () => {
         <div className="bg-orange-600 rounded-[3rem] p-12 md:p-20 text-center text-white relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
           <div className="relative z-10 max-w-3xl mx-auto">
-            <h3 className="text-4xl md:text-5xl font-bold mb-8">Ready to Start Your Next Project?</h3>
+            <h3 className="text-4xl md:text-5xl font-bold mb-8">Ready to Build Your Family Home?</h3>
             <p className="text-orange-100 text-lg mb-10">
-              Whether it's a luxury home or a commercial development, our team is ready to bring your vision to life with precision and care.
+              Whether it's a new custom home or a renovation project, our dedicated team is ready to bring your family's vision to life with care and craftsmanship.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -13,8 +13,6 @@ export const Navbar = () => {
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Resources', path: '/resources' },
-    { name: 'Careers', path: '/careers' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -23,13 +21,15 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold tracking-tighter text-gray-900">
-              HIPA<span className="text-orange-600">VALLEY</span>
-            </span>
+            <img 
+              src="/images/a-modern-minimalist-logo-design-for-hipv_y5QjWxjWRGSCYc0SRvroSQ_a006HBgiQoq5ZP1vet8X1w_sd.jpeg" 
+              alt="Hipavalley Logo" 
+              className="h-16 w-16 rounded-lg object-cover"
+            />
           </Link>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center space-x-8">
+          {/* Desktop Nav - Centered */}
+          <div className="hidden md:flex flex-1 justify-center items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -42,13 +42,15 @@ export const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Link
-              to="/contact"
-              className="bg-gray-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-all"
-            >
-              Get a Quote
-            </Link>
           </div>
+
+          {/* Get a Quote Button - Right Side */}
+          <Link
+            to="/contact"
+            className="bg-gray-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-all hidden md:block"
+          >
+            Get a Quote
+          </Link>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
@@ -96,11 +98,18 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <span className="text-2xl font-bold tracking-tighter text-white">
-              HIPA<span className="text-orange-500">VALLEY</span>
-            </span>
+            <div className="flex items-center space-x-2">
+              <img 
+                src="/images/a-modern-minimalist-logo-design-for-hipv_y5QjWxjWRGSCYc0SRvroSQ_a006HBgiQoq5ZP1vet8X1w_sd.jpeg" 
+                alt="Hipavalley Logo" 
+                className="h-16 w-16 rounded-lg object-cover"
+              />
+              <span className="text-2xl font-bold tracking-tighter text-white">
+                HIPA<span className="text-orange-500">VALLEY</span>
+              </span>
+            </div>
             <p className="text-sm leading-relaxed text-gray-400">
-              Building Harare's future with excellence, integrity, and innovation. Premier construction partners for residential and commercial excellence.
+              Building beautiful family homes across Harare with care, quality craftsmanship, and personal attention to every detail.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-orange-500 transition-colors"><Facebook size={20} /></a>
@@ -115,18 +124,15 @@ export const Footer = () => {
               <li><Link to="/about" className="hover:text-orange-500 transition-colors">About Us</Link></li>
               <li><Link to="/services" className="hover:text-orange-500 transition-colors">Our Services</Link></li>
               <li><Link to="/projects" className="hover:text-orange-500 transition-colors">Portfolio</Link></li>
-              <li><Link to="/careers" className="hover:text-orange-500 transition-colors">Careers</Link></li>
-              <li><Link to="/tenders" className="hover:text-orange-500 transition-colors">Tenders</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-semibold mb-6">Services</h4>
             <ul className="space-y-4 text-sm">
-              <li><Link to="/services/residential-construction" className="hover:text-orange-500 transition-colors">Residential Construction</Link></li>
-              <li><Link to="/services/commercial-construction" className="hover:text-orange-500 transition-colors">Commercial Construction</Link></li>
-              <li><Link to="/services/property-development" className="hover:text-orange-500 transition-colors">Property Development</Link></li>
-              <li><Link to="/services/interior-fit-outs" className="hover:text-orange-500 transition-colors">Interior Fit-Outs</Link></li>
+              <li><Link to="/services/custom-home-building" className="hover:text-orange-500 transition-colors">Custom Home Building</Link></li>
+              <li><Link to="/services/home-renovations" className="hover:text-orange-500 transition-colors">Home Renovations</Link></li>
+              <li><Link to="/services/home-extensions" className="hover:text-orange-500 transition-colors">Home Extensions</Link></li>
             </ul>
           </div>
 
@@ -135,15 +141,15 @@ export const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-orange-500 shrink-0" />
-                <span>123 Enterprise Rd, Highlands, Harare, Zimbabwe</span>
+                <span>Kuwadzana Extension, Harare, Zimbabwe</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-orange-500 shrink-0" />
-                <span>+263 242 123 456</span>
+                <span>+263 7730631303</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-orange-500 shrink-0" />
-                <span>info@hipavalley.co.zw</span>
+                <span>hipvalley@gmail.com</span>
               </li>
             </ul>
           </div>
