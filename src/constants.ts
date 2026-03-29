@@ -76,7 +76,7 @@ export const TEAM: TeamMember[] = [
     id: '1',
     name: 'Joseph Chamakandiona',
     role: 'Owner & Lead Builder',
-    bio: 'With 8 years of experience in residential construction, I founded Hipavalley with a passion for creating beautiful family homes across Harare.',
+    bio: 'With 8 years of experience in residential construction, I founded Hipvalley with a passion for creating beautiful family homes across Harare.',
     imageUrl: '/images/joseph-profile.jpg',
     linkedin: '#'
   }
@@ -118,7 +118,7 @@ export const FAQS: FAQ[] = [
   },
   {
     question: 'Are you registered with the ZBCA?',
-    answer: 'Yes, Hipavalley is a proud member of the Zimbabwe Building Contractors Association.',
+    answer: 'Yes, Hipvalley is a proud member of the Zimbabwe Building Contractors Association.',
     category: 'General'
   }
 ];

@@ -43,7 +43,7 @@ export const CareersPage = () => {
 
             <div className="space-y-8">
               <div className="bg-orange-600 p-10 rounded-3xl text-white">
-                <h3 className="text-2xl font-bold mb-6">Why Hipavalley?</h3>
+                <h3 className="text-2xl font-bold mb-6">Why Hipvalley?</h3>
                 <ul className="space-y-4">
                   {[
                     'Competitive Salaries',

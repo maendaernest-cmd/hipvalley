@@ -9,7 +9,7 @@ export const TendersPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-8">Tenders & Procurement</h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Partner with Hipavalley. We are committed to building a robust and ethical supply chain with local partners.
+            Partner with Hipvalley. We are committed to building a robust and ethical supply chain with local partners.
           </p>
         </div>
       </section>
@@ -31,7 +31,7 @@ export const TendersPage = () => {
                 <div className="space-y-6">
                   {[
                     { title: 'Ethical Sourcing', desc: 'We prioritize suppliers who adhere to fair labor practices and environmental standards.' },
-                    { title: 'Local Commitment', desc: 'Hipavalley is dedicated to supporting Zimbabwean businesses and local manufacturing.' },
+                    { title: 'Local Commitment', desc: 'Hipvalley is dedicated to supporting Zimbabwean businesses and local manufacturing.' },
                     { title: 'Quality First', desc: 'All materials must meet or exceed national and international building standards.' }
                   ].map((p, i) => (
                     <div key={i} className="flex gap-6">

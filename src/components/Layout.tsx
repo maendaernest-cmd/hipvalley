@@ -23,7 +23,7 @@ export const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src="/images/a-modern-minimalist-logo-design-for-hipv_y5QjWxjWRGSCYc0SRvroSQ_a006HBgiQoq5ZP1vet8X1w_sd.jpeg" 
-              alt="Hipavalley Logo" 
+              alt="Hipvalley Logo" 
               className="h-16 w-16 rounded-lg object-cover"
             />
           </Link>
@@ -101,11 +101,11 @@ export const Footer = () => {
             <div className="flex items-center space-x-2">
               <img 
                 src="/images/a-modern-minimalist-logo-design-for-hipv_y5QjWxjWRGSCYc0SRvroSQ_a006HBgiQoq5ZP1vet8X1w_sd.jpeg" 
-                alt="Hipavalley Logo" 
+                alt="Hipvalley Logo" 
                 className="h-16 w-16 rounded-lg object-cover"
               />
               <span className="text-2xl font-bold tracking-tighter text-white">
-                HIPA<span className="text-orange-500">VALLEY</span>
+                HIP<span className="text-orange-500">VALLEY</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
@@ -156,7 +156,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-xs text-gray-500">
-          <p>© 2026 Hipavalley Construction. All rights reserved.</p>
+          <p>© 2026 Hipvalley Construction. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link to="/privacy" className="hover:text-white">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-white">Terms of Service</Link>

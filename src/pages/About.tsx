@@ -37,7 +37,7 @@ export const AboutPage = () => {
               <h2 className="text-sm font-bold text-orange-600 uppercase tracking-[0.2em]">Our Story</h2>
               <h3 className="text-4xl font-bold text-gray-900 leading-tight">From a Vision to Market Leadership</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Founded in 2010, Hipavalley began with a simple mission: to provide high-quality construction services that Zimbabweans can trust. What started as a small team of dedicated craftsmen has grown into one of Harare's premier construction firms.
+                Founded in 2010, Hipvalley began with a simple mission: to provide high-quality construction services that Zimbabweans can trust. What started as a small team of dedicated craftsmen has grown into one of Harare's premier construction firms.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Our journey has been defined by our commitment to local expertise, sustainable practices, and the belief that every structure we build contributes to the future of our nation.
@@ -74,7 +74,7 @@ export const AboutPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold text-orange-600 uppercase tracking-[0.2em] mb-4">Our Values</h2>
-            <h3 className="text-4xl font-bold text-gray-900">The Pillars of Hipavalley</h3>
+            <h3 className="text-4xl font-bold text-gray-900">The Pillars of Hipvalley</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[

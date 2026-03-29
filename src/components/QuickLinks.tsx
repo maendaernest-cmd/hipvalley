@@ -35,7 +35,7 @@ export const QuickLinksSection: React.FC = () => {
   ];
 
   const company = [
-    { text: 'About Hipavalley', url: '/about' },
+    { text: 'About Hipvalley', url: '/about' },
     { text: 'Our Team', url: '/about#team' },
     { text: 'Contact Us', url: '/contact' },
     { text: 'Get a Quote', url: '/contact' }

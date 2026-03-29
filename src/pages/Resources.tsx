@@ -12,7 +12,7 @@ export const ResourcesPage = () => {
           <div className="text-center mb-20">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">Resources & Insights</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Stay informed with the latest construction trends, industry news, and expert guides from the Hipavalley team.
+              Stay informed with the latest construction trends, industry news, and expert guides from the Hipvalley team.
             </p>
           </div>
 

@@ -22,7 +22,7 @@ export const ServicesPage = () => {
             </div>
           </div>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            From groundbreaking to final finishing touches, Hipavalley provides comprehensive construction solutions for Harare families.
+            From groundbreaking to final finishing touches, Hipvalley provides comprehensive construction solutions for Harare families.
           </p>
         </div>
       </section>

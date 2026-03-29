@@ -171,7 +171,7 @@ const WhyChooseUs = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div>
-            <h2 className="text-sm font-bold text-orange-500 uppercase tracking-[0.2em] mb-4">Why Hipavalley</h2>
+            <h2 className="text-sm font-bold text-orange-500 uppercase tracking-[0.2em] mb-4">Why Hipvalley</h2>
             <h3 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Building Beautiful Homes for Harare Families</h3>
             <p className="text-gray-400 mb-12 text-lg leading-relaxed">
               We believe every family deserves a beautiful, functional home. Our small, dedicated team focuses on quality craftsmanship and personal service to bring your residential dreams to life.
@@ -220,19 +220,23 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { name: "Duke Chizembe", location: "Homeowner, Borrowdale" },
-            { name: "Linda Chirwa", location: "Homeowner, Kuwadzana" },
-            { name: "Tendai Chokomwe", location: "Homeowner, Highlands" }
+            { name: "Duke Chizembe", location: "Homeowner, Borrowdale", image: "/images/duke-profile.jfif" },
+            { name: "Linda Chirwa", location: "Homeowner, Kuwadzana", image: "/images/linda-profile.jfif" },
+            { name: "Tendai Chokomwe", location: "Homeowner, Highlands", image: "/images/tendai-profile.jfif" }
           ].map((testimonial, i) => (
             <div key={i} className="bg-white p-8 rounded-3xl border border-gray-100">
               <div className="flex text-orange-500 mb-6">
                 {[1, 2, 3, 4, 5].map(s => <Star key={s} size={16} fill="currentColor" />)}
               </div>
               <p className="text-gray-600 italic mb-8 leading-relaxed">
-                "Hipavalley built our family home exactly as we dreamed it. Their attention to detail and personal approach made the entire process stress-free. We love our new home!"
+                "Hipvalley built our family home exactly as we dreamed it. Their attention to detail and personal approach made the entire process stress-free. We love our new home!"
               </p>
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gray-200 rounded-full" />
+                <img 
+                  src={testimonial.image} 
+                  alt={testimonial.name}
+                  className="w-12 h-12 rounded-full object-cover"
+                />
                 <div>
                   <h5 className="font-bold text-gray-900">{testimonial.name}</h5>
                   <p className="text-xs text-gray-500 uppercase tracking-widest">{testimonial.location}</p>
@@ -282,9 +286,9 @@ export const HomePage = () => {
   return (
     <main>
       <SEO 
-        title="Hipavalley - Custom Home Building in Harare, Zimbabwe"
-        description="Hipavalley is your trusted residential construction company in Harare, specializing in custom home building, home renovations, and extensions. 8+ years building beautiful family homes."
-        keywords="custom home builder Harare, residential construction Zimbabwe, home renovations Harare, house extensions, luxury homes, family homes, building contractor, Hipavalley construction"
+        title="Hipvalley - Custom Home Building in Harare, Zimbabwe"
+        description="Hipvalley is your trusted residential construction company in Harare, specializing in custom home building, home renovations, and extensions. 8+ years building beautiful family homes."
+        keywords="custom home builder Harare, residential construction Zimbabwe, home renovations Harare, house extensions, luxury homes, family homes, building contractor, Hipvalley construction"
       />
       <Hero />
       <ServicesSection />

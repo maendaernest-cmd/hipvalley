@@ -12,15 +12,15 @@ interface SEOProps {
 }
 
 export const SEO: React.FC<SEOProps> = ({
-  title = 'Hipavalley - Custom Home Building in Harare, Zimbabwe',
-  description = 'Hipavalley is your trusted residential construction company in Harare, specializing in custom home building, home renovations, and extensions. 8+ years building beautiful family homes.',
-  keywords = 'custom home builder Harare, residential construction Zimbabwe, home renovations Harare, house extensions, luxury homes, family homes, building contractor, Hipavalley construction',
+  title = 'Hipvalley - Custom Home Building in Harare, Zimbabwe',
+  description = 'Hipvalley is your trusted residential construction company in Harare, specializing in custom home building, home renovations, and extensions. 8+ years building beautiful family homes.',
+  keywords = 'custom home builder Harare, residential construction Zimbabwe, home renovations Harare, house extensions, luxury homes, family homes, building contractor, Hipvalley construction',
   image = '/images/hipavalley-logo.jpg',
   url = window.location.href,
   type = 'website'
 }) => {
   const location = useLocation();
-  const currentUrl = url || `https://hipavalley.com${location.pathname}`;
+  const currentUrl = url || `https://hipvalley.co.zw${location.pathname}`;
 
   return (
     <Helmet>
@@ -35,15 +35,15 @@ export const SEO: React.FC<SEOProps> = ({
       <meta property="og:url" content={currentUrl} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={`https://hipavalley.com${image}`} />
-      <meta property="og:site_name" content="Hipavalley" />
+      <meta property="og:image" content={`https://hipvalley.co.zw${image}`} />
+      <meta property="og:site_name" content="Hipvalley" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={currentUrl} />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content={`https://hipavalley.com${image}`} />
+      <meta property="twitter:image" content={`https://hipvalley.co.zw${image}`} />
 
       {/* Local Business SEO */}
       <meta name="geo.region" content="ZW-HA" />
@@ -69,9 +69,9 @@ export const SEO: React.FC<SEOProps> = ({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Hipavalley",
+          "name": "Hipvalley",
           "description": description,
-          "url": "https://hipavalley.com",
+          "url": "https://hipvalley.co.zw",
           "telephone": "+263 773063103",
           "email": "hipvalley@gmail.com",
           "address": {
@@ -93,7 +93,7 @@ export const SEO: React.FC<SEOProps> = ({
           "openingHours": "Mo-Fr 07:30-17:00, Sa 08:00-13:00",
           "priceRange": "$$",
           "sameAs": [],
-          "image": `https://hipavalley.com${image}`,
+          "image": `https://hipvalley.co.zw${image}`,
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "nameOfPart": "Construction Services",
