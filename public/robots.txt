@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://hipavalley.com/sitemap.xml
+
+# Block common non-content paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow important assets
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Crawl delay (optional, be nice to servers)
+Crawl-delay: 1

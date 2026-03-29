@@ -3,6 +3,9 @@ import { motion } from 'motion/react';
 import { ArrowRight, CheckCircle2, Star, Users, Briefcase, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { PROJECTS, SERVICES } from '@/src/constants';
+import { SEO } from '@/src/components/SEO';
+import { QuickLinksSection } from '@/src/components/QuickLinks';
+import { InternalLinks } from '@/src/components/InternalLinks';
 import * as Icons from 'lucide-react';
 
 const Hero = () => {
@@ -278,12 +281,23 @@ const CTA = () => {
 export const HomePage = () => {
   return (
     <main>
+      <SEO 
+        title="Hipavalley - Custom Home Building in Harare, Zimbabwe"
+        description="Hipavalley is your trusted residential construction company in Harare, specializing in custom home building, home renovations, and extensions. 8+ years building beautiful family homes."
+        keywords="custom home builder Harare, residential construction Zimbabwe, home renovations Harare, house extensions, luxury homes, family homes, building contractor, Hipavalley construction"
+      />
       <Hero />
       <ServicesSection />
       <WhyChooseUs />
       <FeaturedProjects />
       <Testimonials />
       <CTA />
+      <QuickLinksSection />
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <InternalLinks />
+        </div>
+      </section>
     </main>
   );
 };
