@@ -156,7 +156,10 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-xs text-gray-500">
-          <p>© 2026 Hipvalley Construction. All rights reserved.</p>
+          <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
+            <p>© 2026 Hipvalley Construction. All rights reserved.</p>
+            <p>Powered by Ernest T Maenda</p>
+          </div>
           <div className="flex space-x-6">
             <Link to="/privacy" className="hover:text-white">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-white">Terms of Service</Link>
